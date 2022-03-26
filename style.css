@@ -1,0 +1,164 @@
+
+
+body{
+    background-image:url("assets/imagemEspaço.jpeg") ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 50px ;
+    gap: 400px;    
+    border-bottom: 2px solid rgb(162, 36, 36);
+    margin-bottom: 40px;
+}
+
+#logoNasa{
+    margin-right: 300px;
+}
+
+nav {
+    height: 100%; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;   
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;   
+} 
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+}
+
+#container p {
+    font-size: 15px;   
+}
+
+h1{
+    margin-bottom: 10px  ;
+}
+
+form {
+    font-weight: 900;
+    margin-top: 15px;
+    background-color:rgba(48, 59, 85, 0.789);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(162, 36, 36);
+    display: flex;
+    flex-direction: column;   
+    width: 400px; 
+    color: white;  
+    gap: 10px;
+    height: 470px;
+}
+input { 
+    padding: 5px;
+    margin: 5px 0px 10px 0px;
+}
+
+.paragrafoForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+#button {
+    all:unset;
+    background-color: rgb(170, 59, 59);
+    border: 2px solid black ;
+    border-radius: 4px;
+    width: 150px;
+    padding: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#button:hover {
+    background-color: rgb(63, 63, 240);
+}
+
+.botaoFalso {
+    all: unset;
+    background-color: rgb(170, 59, 59);  
+    border-radius: 2px color black;
+    margin: auto 0;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+
+}  
+
+.botaoFalso:hover {
+    background-color: rgb(63, 63, 240);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.imagemPlanoArtemis1 {
+    margin: 20px 0 ;
+    width: 500px;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid rgb(162, 36, 36);
+    margin-top: 90px;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+#divRodape{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+#divImagens{
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+    
+}
+
+#divImagens img {
+    width: 50px;
+
+}
+
+
+img {
+    width: 150px;
+}
